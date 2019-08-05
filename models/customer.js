@@ -10,5 +10,4 @@ const schema = mongoose.Schema({
     },
     origin : String
 })
-
 module.exports =  mongoose.model('Customer',schema)

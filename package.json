@@ -2,7 +2,7 @@
   "name": "mongodb-dev-app",
   "version": "1.0.0",
   "description": "mongo db app with nodeJS",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +19,8 @@
   "homepage": "https://github.com/EduardoPerezC/mongodb-dev-app#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "mongoose": "^5.6.6",
     "nodemon": "^1.19.1"
   }
 }

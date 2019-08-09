@@ -1,4 +1,4 @@
-const customerModel = require('../models/customer')
+const { customerModel} = require('../models/customer')
 const contractModel = require('../models/contract')
 const express = require('express')
 const router =  express.Router()

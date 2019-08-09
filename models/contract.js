@@ -49,4 +49,5 @@ var siteTest = {
 
 //compiling the schema into a model
 //exporting the model object
-module.exports =  mongoose.model('Contract',contractSchema)
+exports.contractSchema = contractSchema
+exports.contractModel =  mongoose.model('Contract',contractSchema)

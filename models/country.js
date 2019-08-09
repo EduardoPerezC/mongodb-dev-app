@@ -22,5 +22,6 @@ function validateCountry(country){
     return joi.validate(country,valSchema)
 }
 
+exports.countrySchema = schema
 exports.validate = validateCountry
 exports.Country =  mongoose.model('Country',schema)

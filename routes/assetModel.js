@@ -13,6 +13,7 @@ router.post('/',async (req,resp)=>{
 
     const { error} =  validateAssetModel(req.body)
     if(error){
+        //console.log(error)
         resp.send(error.details[0].message)
         return
     }
